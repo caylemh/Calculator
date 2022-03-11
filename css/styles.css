@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  margin: 0 0 2rem 0;
+  font-size: 80px;
+  font-weight: 900;
+  color: #1C0A00;
+}
+
+input {
+  padding: 0.5rem 0;
+  width: 70%;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  margin: 1rem auto;
+  border-radius: 20px;
+  background-color: #D9CE3F;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  max-width: 200px;
+  background-color: #890F0D;
+  border-radius: 50px;
+  margin: 2rem auto;
+  font-size: 30px;
+  font-weight: 600;
+  cursor:pointer;
+}
+
+.btn:hover {
+  background-color: #D9CE3F;
+}
+
+.container {
+  padding: 5rem;
+  background-color: #630606;
+}
+
+.calculator {
+  margin: 0 auto;
+  padding: 3rem;
+  width: 40%;
+  min-width: 500px;
+  border-radius: 100px;
+  border: 5px solid white;
+  background-color: #E83A14;
+  box-shadow: 0 20px 40px black;
+}
+
+.answer {
+  font-size: 30px;
+  margin: 0 auto;
+  padding: 1rem;
+  font-weight: 900;
+  text-shadow: 0 2px 5px black;
+  color: #D9CE3F;
+  visibility: hidden;
+}
